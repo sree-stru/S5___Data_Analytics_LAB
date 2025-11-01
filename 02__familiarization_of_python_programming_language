@@ -1,0 +1,226 @@
+
+EXPERIMENT NO: 02
+FAMILIARIZATION OF PYTHON PROGRAMMING LANGUAGE
+
+
+PYTHON
+
+Python is a high-level, interpreted, and general-purpose programming language known for its simple and readable syntax.
+Creator: Created by Guido van Rossum.
+Release: First released in 1991.
+Philosophy: Python emphasizes code readability, allowing developers to write clear, logical code for small and large-scale projects.
+Paradigms: It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+
+Features of Python
+Easy to Learn and Use: Python syntax is clear and intuitive, resembling natural English. Minimal boilerplate code is required.
+Interpreted Language: Python code is executed line by line by the interpreter, which makes debugging easier and programs more dynamic.
+Cross-Platform Compatibility: It is platform-independent. Code written on one OS (e.g., Windows) can run on others (e.g., Linux, macOS) with minimal changes.
+Dynamically Typed: You don't need to declare variable types; the interpreter determines the type at runtime.
+Extensive Standard Library: Comes with built-in modules for math, string processing, file handling, regular expressions, web services, etc.
+Object-Oriented and Functional: Supports both Object-Oriented and Functional programming styles.
+Large Ecosystem and Community: Python has a huge developer community and thousands of third-party libraries for data science, machine learning, web development, and more.
+Embeddable and Extendable: Python can be embedded in other languages (like C++) and be extended with code written in other languages.
+
+Applications of Python
+Web Development:
+Frameworks: Django, Flask, FastAPI.
+Use: Used for backend logic, handling user requests, and server-side scripting.
+Data Science and Data Analysis:
+Libraries: Pandas, NumPy, Matplotlib, Seaborn.
+Use: Data manipulation, cleaning, and joining.
+Machine Learning and Artificial Intelligence (AI):
+Libraries: Scikit-learn, TensorFlow, Keras, PyTorch, XGBoost.
+Use: Building predictive models, neural networks, and intelligent systems.
+Automation and Scripting:
+Tools: OS, JSON, Re, CSV, Random, Subprocess, Requests, Beautiful Soup, Selenium, PyAutoGUI, Schedule.
+Use: Automating repetitive tasks, system administration, file handling, and web scraping.
+Game Development:
+Library: Pygame.
+Use: Simple 2D games and prototypes.
+Cybersecurity and Ethical Hacking:
+Use: Writing penetration testing scripts, socket programming, and analyzing network traffic.
+Scientific Computing: Libraries like SciPy and Numba.
+Image/Media Processing: Libraries like PIL/Pillow, OpenCV, moviepy, PyDub.
+
+Limitations of Python
+Performance Issues: Python is an interpreted and dynamically typed language, making it generally slower than compiled languages like C or Java.
+High Memory Consumption: Python uses more memory than some lower-level languages, which makes it unsuitable for memory-constrained devices (e.g., embedded systems).
+Runtime Errors: Being dynamically typed means type-related bugs can appear during run-time, not during compilation.
+Weak in True Threading (GIL): Python’s Global Interpreter Lock (GIL) prevents true parallel execution of threads, limiting multicore CPU performance in some applications.
+Mobile Application Development: Python is not commonly used for mobile app development; Java (Android) and Swift (iOS) dominate this field.
+
+Python Data Types
+Type Category
+Type
+Example
+Description
+
+Numeric Types
+
+int
+
+x = 10
+
+Integer numbers
+
+
+
+float
+
+x = 10.15
+
+Decimal (real) numbers
+
+
+
+complex
+
+x = 20+2J
+
+Complex numbers
+
+Text Type
+
+str
+
+x = "hello"
+
+Text (string of characters)
+
+Sequence Types
+
+list
+
+x = [1, 2, 3]
+
+Ordered, mutable
+
+
+
+tuple
+
+x = (1, 2, 3)
+
+Ordered, immutable
+
+
+
+range
+
+range(15)
+
+Sequence of numbers
+
+Mapping Type
+
+dict
+
+x = {"name": "Alice", "age": 24}
+
+Key-value pairs
+
+Set Types
+
+set
+
+x = {1, 2, 3}
+
+Unordered, unique values
+
+
+
+frozenset
+
+frozenset({1, 2})
+
+Immutable set
+
+Boolean Type
+
+bool
+
+True, False
+
+Logical values
+
+None Type
+
+NoneType
+
+None
+
+Represents null/empty value
+
+Basic Python Commands
+
+Command
+
+Syntax/Example
+
+Purpose
+
+Print Output
+
+print("Hello") or print("Enter name:")
+
+Displays output to the console.
+
+Input from User
+
+x = input("Enter name: ")
+
+Takes input from the user and stores it in a variable.
+
+Variable
+
+x = 10
+
+Stores a value in a memory location.
+
+Data Type
+
+type(x)
+
+Returns the type of a variable.
+
+List
+
+mylist = [1, 2, 3]
+
+Creates a list.
+
+Loop (for)
+
+for i in range(5): print(i)
+
+Iterates over a sequence.
+
+Loop (while)
+
+while x < 5: x = x + 1
+
+Repeats code as long as a condition is true.
+
+If Condition
+
+if x > 0: print("Positive")
+
+Executes code conditionally.
+
+Function
+
+def add(a, b): return a + b
+
+Defines a reusable block of code.
+
+Import Module
+
+import math
+
+Imports external libraries/modules.
+
+File Read/Write
+
+open("file.txt", "r")
+
+Opens a file for reading, writing, etc.
