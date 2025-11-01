@@ -1,0 +1,52 @@
+
+EXPERIMENT N0 :01
+FAMILIARIZATION OF WEKA TOOL AND PERFORM AN EXPLORATIVE DATA ANALYSIS
+
+WEKA Tool
+
+Definition: WEKA is an open-source software developed in Java that provides a collection of machine learning algorithms and data preprocessing tools. It is presented through a GUI and command-line interface. It is widely used for data mining classification, clustering, regression, and data visualization.
+WEKA stands for: Waikato Environment for Knowledge Analysis.
+It is a free open-source data mining and machine learning tool.
+
+Development: Developed by the University of Waikato, New Zealand.
+Main data mining processes: Classification, clustering, regression, association rule mining, and visualization.
+Programming: No programming needed - ideal for beginners and students.
+Data support: Comes with built-in datasets and supports common file formats like ARFF, CSV, and XLSX.
+Use: Useful for research, teaching, and quick ML prototyping and data analysis.
+
+WEKA Interfaces
+Explorer:
+Main tool for data analysis.
+Most commonly used interface, beginner-friendly.
+Step-by-step machine learning workflow.
+Experimenter:
+Used to compare multiple algorithms on the same dataset.
+Performs statistical analysis of results.
+Useful for research and benchmarking.
+Knowledge Flow:
+Drag and drop workflow builder (like a flowchart).
+Good for building custom ML pipelines.
+
+🛠️ Procedure: How to Create/Load Data
+
+Method 1: Create Dataset Manually in WEKA Tool
+Open WEKA > click on Explorer.
+Click Open file.
+Choose any small ARFF file (e.g., weather.nominal.arff).
+Click Edit (Opens the ARFF Viewer).
+In ARFF Viewer, click Add instance to manually enter rows.
+Click Edit to change attribute values.
+After editing, click Save - save it as an ARFF file.
+
+Method 2: Create Dataset in Text Editor (ARFF format)
+Open any text editor (e.g., Notepad).
+Write the dataset in ARFF format.
+Save it as file-name.arff.
+Open it in WEKA via Explorer > Open file.
+How to Load an ARFF/CSV file in WEKA
+Open WEKA > click on Explorer.
+Click Open file.
+Select your CSV file from your computer.
+WEKA will automatically convert CSV to ARFF format.
+The data will appear in the Preprocess tab.
+After loading, click Save to export it as an ARFF file for future use.
